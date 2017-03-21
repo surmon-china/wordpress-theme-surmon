@@ -35,13 +35,6 @@ if($("#sidebar").css('display') == 'none'){
 <a target="_blank" rel="nofollow" href="http://share.renren.com/share/buttonshare?link=<?php the_permalink(); ?>&title=<?php the_title(''); ?>" title="人人网"><i class="icon-renren"></i></a>   
 <a target="_blank" rel="nofollow" href="http://cang.baidu.com/do/add?iu=<?php the_permalink(); ?>&it=<?php the_title(''); ?>&linkid=hjm6y313aqz" title="百度云资源分享"><i class="icon-baidu"></i></a>   
 <a target="_blank" rel="nofollow" href="<?php bloginfo( 'url' ); ?>/feed" title="订阅本站"><i class="fa fa-rss"></i></a>   
-<span title="关注个人" style="margin-left: 10px;"><i class="fa fa-plus"></i></span>
-<a target="_blank" rel="nofollow" href="http://yun.baidu.com/share/home?uk=4229109814#category/type=0" title="百度云盘"><i class="icon-baiduyun"></i></a>   
-<a target="_blank" rel="nofollow" href="http://www.xiami.com/radio/play/type/4/oid/11925881" class="tencent-share" title="虾米电台"><i class="icon-xiami"></i></a>   
-<a target="_blank" rel="nofollow" href="http://www.zhihu.com/people/surmon" title="知乎主页"><i class="icon-zhihu-square"></i></a>  
-<a target="_blank" rel="nofollow" href="mailto:surmon@foxmail.com" title="给我邮件"><i class="fa fa-envelope"></i></a>   
-<a target="_blank" rel="nofollow" href="tencent://Message/?Uin=794939078&websiteName=surmon.me=&Menu=yes" title="与我交谈" ><i class="icon-qq"></i></a>
-<a target="_blank" rel="nofollow" href="https://github.com/surmon-china" title="GitHu主页" class="last_child"><i class="fa fa-github"></i></a> 
 </div>  
 	<?php do_action( 'article-after' ); ?><!--//相关文章函数的调用-->
 	<?php if( comments_open() ) comments_template( '', true ); ?>
