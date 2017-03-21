@@ -1,0 +1,25 @@
+<div class="postlist">
+  <ul>
+    <li ng-repeat="post in posts" >
+      <p>文章ID：{{post.id}}</p>
+      <p>文章类型：{{post.type}}</p>
+      <p>文章地址：{{post.url}}</p>
+      <p>文章标题：{{post.title}}</p>
+      <p>文章摘要：{{post.content}}</p>
+      <p>发布日期：{{post.data}}</p>
+      <p>围观人数：{{post.custom_fields.views[0]}}</p>
+      <p>评论条数：{{post.comment_count}}</p>
+      <ul ng-repeat="tag in post.tags">
+        <li>所属标签：<a href="#/tag/{{tag.slug}}" >{{tag.title}}</a></li>
+      </ul>
+      <ul ng-repeat="cate in post.categories">
+        <li>所属分类：<a href="#/cate/{{cate.slug}}" >{{cate.title}}</a></li>
+      </ul>
+      <p>缩略图：
+      <a href="#/post/{{post.id}}"><img ng-src="{{post.thumbnail_images.full.url}}" /></a>
+      </p>
+    </li>
+    <p>本页共{{postsNum}}篇文章，一共有{{pages}}页内容</p>  
+  </ul>
+  <div class="pagenavi">我是翻页按钮模块</div>
+</div>

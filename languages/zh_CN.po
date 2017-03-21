@@ -1,0 +1,1663 @@
+# Copyright (C) 2013 WordPress
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Beamour\n"
+"Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
+"POT-Creation-Date: 2014-07-13 10:49+0800\n"
+"PO-Revision-Date: 2014-07-13 10:52+0800\n"
+"Last-Translator: \n"
+"Language-Team: 斌果 <admin@bgbk.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:3 ../includes/postlist.php:13 ../single.php:5
+msgid "当前位置："
+msgstr ""
+
+#: ../404.php:6
+msgid "没有找到当前页面，您可以选择："
+msgstr ""
+
+#: ../404.php:7
+msgid "返回首页"
+msgstr ""
+
+#: ../404.php:8
+msgid "返回前一页"
+msgstr ""
+
+#: ../comments.php:4
+msgid "必须输入密码，才能查看评论！"
+msgstr ""
+
+#: ../comments.php:18
+#, php-format
+msgid "目前有 %s 条评论"
+msgstr ""
+
+#: ../comments.php:19
+msgid "还没有评论"
+msgstr ""
+
+#: ../comments.php:22
+msgid "留言"
+msgstr ""
+
+#: ../comments.php:26
+msgid "评论被关闭"
+msgstr ""
+
+#: ../comments.php:40
+msgid "点击这里取消回复"
+msgstr ""
+
+#: ../comments.php:45
+#, php-format
+msgid "您必须 %s 才能发布留言"
+msgstr ""
+
+#: ../comments.php:53
+msgid "昵称"
+msgstr ""
+
+#: ../comments.php:57 ../includes/widgets/widget-social.php:24
+#: ../includes/widgets/widget-social.php:94 ../mpanel/mpanel-ui.php:844
+msgid "邮箱"
+msgstr ""
+
+#: ../comments.php:61
+msgid "网址"
+msgstr ""
+
+#: ../comments.php:66
+msgid "输入评论内容..."
+msgstr ""
+
+#: ../comments.php:70
+msgid "提交"
+msgstr ""
+
+#: ../comments.php:75
+msgid "正在加载表情..."
+msgstr ""
+
+#: ../comments.php:80
+msgid "登出"
+msgstr ""
+
+#: ../functions/announcement.php:25 ../functions/announcement.php:26
+#: ../functions/announcement.php:48
+msgid "公告"
+msgstr ""
+
+#: ../functions/announcement.php:27 ../mpanel/mpanel-panel.php:121
+msgid "添加"
+msgstr ""
+
+#: ../functions/announcement.php:28
+msgid "添加新公告"
+msgstr ""
+
+#: ../functions/announcement.php:29 ../functions/announcement.php:30
+msgid "编辑公告"
+msgstr ""
+
+#: ../functions/announcement.php:31
+msgid "搜索公告"
+msgstr ""
+
+#: ../functions/announcement.php:32
+msgid "还没有公告"
+msgstr ""
+
+#: ../functions/announcement.php:33
+msgid "在回收站中没有发现公告"
+msgstr ""
+
+#: ../functions/announcement.php:49
+msgid "操作"
+msgstr ""
+
+#: ../functions/announcement.php:50
+msgid "时间"
+msgstr ""
+
+#: ../functions/breadcrumbs.php:13 ../mpanel/mpanel-ui.php:713
+msgid "首页"
+msgstr ""
+
+#: ../functions/breadcrumbs.php:38 ../functions/breadcrumbs.php:44
+msgid "正文"
+msgstr ""
+
+#: ../functions/breadcrumbs.php:66
+#, php-format
+msgid "搜索：%s"
+msgstr ""
+
+#: ../functions/breadcrumbs.php:70
+#, php-format
+msgid "标签：%s"
+msgstr ""
+
+#: ../functions/breadcrumbs.php:76
+#, php-format
+msgid "作者：%s"
+msgstr ""
+
+#: ../functions/breadcrumbs.php:83
+#, php-format
+msgid "（第 %s 页）"
+msgstr ""
+
+#: ../functions/comments.php:26
+msgid "隐瞒"
+msgstr ""
+
+#: ../functions/comments.php:27
+msgid "（通过代理）"
+msgstr ""
+
+#: ../functions/comments.php:28
+msgid "手动操作"
+msgstr ""
+
+#: ../functions/comments.php:28
+msgid "未经过评论表单"
+msgstr ""
+
+#: ../functions/comments.php:30
+#, php-format
+msgid ""
+"请求：%s\n"
+"来路：：%s\n"
+"IP：%s\n"
+"方式：%s\n"
+"内容：%s\n"
+"记录成功"
+msgstr ""
+
+#: ../functions/comments.php:52
+msgid "请在评论里包含中文"
+msgstr ""
+
+#: ../functions/comments.php:68
+#, php-format
+msgid "你在 [%s] 的评论有回复啦！"
+msgstr ""
+
+#: ../functions/comments.php:69
+#, php-format
+msgid "您在 %s 的评论有回复啦！"
+msgstr ""
+
+#: ../functions/comments.php:69
+#, php-format
+msgid "%s 同学，您曾在《 %s 》中发表评论："
+msgstr ""
+
+#: ../functions/comments.php:69
+#, php-format
+msgid "%s 给您的回复如下："
+msgstr ""
+
+#: ../functions/comments.php:69
+#, php-format
+msgid "您可以 %s点击查看完整的回复内容%s，欢迎再次光临 %s！"
+msgstr ""
+
+#: ../functions/comments.php:69
+msgid "点击查看完整的回复内容"
+msgstr ""
+
+#: ../functions/comments.php:69
+msgid "邮件自动生成，请勿直接回复！"
+msgstr ""
+
+#: ../functions/comments.php:104
+msgid "请使用有头像的邮箱"
+msgstr ""
+
+#: ../functions/customize.php:8
+msgid "主题样式"
+msgstr ""
+
+#: ../functions/customize.php:18
+msgid "主体颜色"
+msgstr ""
+
+#: ../functions/homebuild.php:11 ../mpanel/mpanel-ui.php:11
+msgid "首页内容"
+msgstr ""
+
+#: ../functions/homebuild.php:13
+msgid "在这里的内容会被显示在首页区域"
+msgstr ""
+
+#: ../functions/page-functions.php:35
+#, php-format
+msgid "（%s 条）"
+msgstr ""
+
+#: ../functions/page-functions.php:82
+#, php-format
+msgid "%s 年"
+msgstr ""
+
+#: ../functions/page-functions.php:86
+#, php-format
+msgid "%s 月"
+msgstr ""
+
+#: ../functions/page-functions.php:88
+msgid "d日："
+msgstr ""
+
+#: ../functions/pagenavi.php:13
+msgid "&laquo; 首页"
+msgstr ""
+
+#: ../functions/pagenavi.php:14
+msgid "尾页 &raquo;"
+msgstr ""
+
+#: ../functions/pagenavi.php:15
+msgid "&raquo;"
+msgstr ""
+
+#: ../functions/slider.php:24
+msgid "自定义幻灯片"
+msgstr ""
+
+#: ../functions/slider.php:25 ../functions/slider.php:77
+#: ../includes/widgets/widget-slides.php:10
+#: ../includes/widgets/widget-slides.php:36
+msgid "幻灯片"
+msgstr ""
+
+#: ../functions/slider.php:26
+msgid "新建幻灯片"
+msgstr ""
+
+#: ../functions/slider.php:27
+msgid "新建"
+msgstr ""
+
+#: ../functions/slider.php:28 ../functions/slider.php:29
+msgid "编辑幻灯片"
+msgstr ""
+
+#: ../functions/slider.php:30
+msgid "搜索幻灯片"
+msgstr ""
+
+#: ../functions/slider.php:31
+msgid "还没有幻灯片"
+msgstr ""
+
+#: ../functions/slider.php:32
+msgid "在回收站中没有发现幻灯片"
+msgstr ""
+
+#: ../functions/slider.php:51 ../functions/slider.php:88
+#: ../functions/slider.php:99 ../includes/widgets/widget-banner.php:41
+#: ../includes/widgets/widget-categort.php:69
+#: ../includes/widgets/widget-history.php:38
+#: ../includes/widgets/widget-login.php:53
+#: ../includes/widgets/widget-newcomm.php:56
+#: ../includes/widgets/widget-qqlist.php:47
+#: ../includes/widgets/widget-random.php:69
+#: ../includes/widgets/widget-readers.php:44
+#: ../includes/widgets/widget-slides.php:47
+#: ../includes/widgets/widget-social.php:73
+#: ../includes/widgets/widget-tags.php:43
+msgid "标题"
+msgstr ""
+
+#: ../functions/slider.php:52
+msgid "幻灯片数"
+msgstr ""
+
+#: ../functions/slider.php:53
+msgid "日期"
+msgstr ""
+
+#: ../functions/slider.php:88 ../functions/slider.php:100
+msgid "链接"
+msgstr ""
+
+#: ../functions/slider.php:88 ../functions/slider.php:101
+msgid "描述"
+msgstr ""
+
+#: ../functions/slider.php:88 ../functions/slider.php:103
+msgid "删除"
+msgstr ""
+
+#: ../functions/slider.php:90
+msgid "添加一张"
+msgstr ""
+
+#: ../functions/slider.php:107
+msgid "使用上边的按钮来添加一张幻灯片！"
+msgstr ""
+
+#: ../functions/theme-functions.php:16
+msgid "顶部菜单"
+msgstr ""
+
+#: ../functions/theme-functions.php:17
+msgid "页脚菜单"
+msgstr ""
+
+#: ../functions/theme-functions.php:36
+msgid "请在 “后台 - 外观 - 菜单” 设置 “顶部菜单”"
+msgstr ""
+
+#: ../functions/theme-functions.php:44
+msgid "请在 “后台 - 外观 - 菜单” 设置 “页脚菜单”"
+msgstr ""
+
+#: ../functions/theme-functions.php:56
+#, php-format
+msgid "第 %s 页"
+msgstr ""
+
+#: ../functions/theme-functions.php:77
+#, php-format
+msgid "与标签 %s 相关联的文章列表"
+msgstr ""
+
+#: ../functions/theme-functions.php:175
+msgid "换一换"
+msgstr ""
+
+#: ../functions/theme-functions.php:178
+msgid "正在提交"
+msgstr ""
+
+#: ../functions/theme-functions.php:179
+msgid "提交成功"
+msgstr ""
+
+#: ../functions/theme-functions.php:308
+#, php-format
+msgid "标签 %s 的文章"
+msgstr ""
+
+#: ../functions/theme-functions.php:311 ../functions/theme-functions.php:312
+#: ../functions/theme-functions.php:313
+msgid "年"
+msgstr ""
+
+#: ../functions/theme-functions.php:311 ../functions/theme-functions.php:312
+msgid "月"
+msgstr ""
+
+#: ../functions/theme-functions.php:311
+msgid "日"
+msgstr ""
+
+#: ../functions/theme-functions.php:316
+#, php-format
+msgid "关键词 “%s” 的搜索结果"
+msgstr ""
+
+#: ../functions/theme-functions.php:318
+msgid "RSS 订阅此分类"
+msgstr ""
+
+#: ../functions/theme-functions.php:332 ../functions/theme-functions.php:333
+msgid "声明"
+msgstr ""
+
+#: ../functions/theme-functions.php:332
+#, php-format
+msgid "本文由 %s 原创编译，转载请注明出处：%s"
+msgstr ""
+
+#: ../functions/theme-functions.php:332 ../functions/theme-functions.php:333
+#, php-format
+msgid "作者 %s 的网址"
+msgstr ""
+
+#: ../functions/theme-functions.php:333
+#, php-format
+msgid "本文由 %s 整编自 %s"
+msgstr ""
+
+#: ../functions/theme-functions.php:333
+msgid "本文链接："
+msgstr ""
+
+#: ../functions/theme-functions.php:348
+msgid "上一篇："
+msgstr ""
+
+#: ../functions/theme-functions.php:349
+msgid "下一篇："
+msgstr ""
+
+#: ../functions/widgets.php:13 ../mpanel/mpanel-ui.php:710
+msgid "默认侧边栏"
+msgstr ""
+
+#: ../functions/widgets.php:15
+msgid "没有被单独定义的侧边栏都会调用这里的内容"
+msgstr ""
+
+#: ../functions/widgets.php:25
+#, php-format
+msgid "用户自定义的侧边栏：%s"
+msgstr ""
+
+#: ../header.php:18 ../mpanel/mpanel-ui.php:460 ../searchform.php:4
+msgid "搜索"
+msgstr ""
+
+#: ../header.php:21
+msgid "导航菜单"
+msgstr ""
+
+#: ../includes/ajax.php:12
+msgid "检测为非法提交的评论"
+msgstr ""
+
+#: ../includes/ajax.php:21
+msgid "对不起，评论已关闭"
+msgstr ""
+
+#: ../includes/ajax.php:30
+msgid "密码保护状态"
+msgstr ""
+
+#: ../includes/ajax.php:49
+msgid "您必须登录才能发表评论"
+msgstr ""
+
+#: ../includes/ajax.php:52
+msgid "请填写正确的昵称和邮箱"
+msgstr ""
+
+#: ../includes/ajax.php:53
+msgid "请使用一个有效的邮箱"
+msgstr ""
+
+#: ../includes/ajax.php:55
+msgid "请输入评论"
+msgstr ""
+
+#: ../includes/ajax.php:59
+msgid "您发表的评论重复了"
+msgstr ""
+
+#: ../includes/ajax.php:64
+msgid "您评论的速度太快了，休息一会儿吧"
+msgstr ""
+
+#: ../includes/ajax.php:84 ../includes/comments.php:23
+#: ../mpanel/mpanel-ui.php:336
+msgid "编辑"
+msgstr ""
+
+#: ../includes/ajax.php:101 ../includes/comments.php:41
+msgid "您的评论正在等待审核中"
+msgstr ""
+
+#: ../includes/home-cat.php:19
+msgid "分类的全部文章"
+msgstr ""
+
+#: ../includes/home-cat.php:19
+msgid "更多"
+msgstr ""
+
+#: ../includes/home/home-banner.php:10
+#: ../includes/widgets/widget-banner.php:10
+#: ../includes/widgets/widget-banner.php:36
+msgid "广告"
+msgstr ""
+
+#: ../includes/home/home-banner.php:10
+msgid "显示自定义的广告代码"
+msgstr ""
+
+#: ../includes/home/home-banner.php:29
+#: ../includes/widgets/widget-banner.php:45
+msgid "广告代码"
+msgstr ""
+
+#: ../includes/home/home-banner.php:33
+#: ../includes/widgets/widget-banner.php:53
+msgid "广告预览"
+msgstr ""
+
+#: ../includes/home/home-blank.php:10
+msgid "空行"
+msgstr ""
+
+#: ../includes/home/home-blank.php:10
+msgid "在界面中留出一条空行"
+msgstr ""
+
+#: ../includes/home/home-blank.php:32
+msgid "空行高度（px）"
+msgstr ""
+
+#: ../includes/home/home-cat.php:10 ../includes/widgets/widget-categort.php:10
+#: ../includes/widgets/widget-categort.php:59
+msgid "分类文章"
+msgstr ""
+
+#: ../includes/home/home-cat.php:10
+msgid "显示一个分类文章列表的板块"
+msgstr ""
+
+#: ../includes/home/home-cat.php:39 ../includes/widgets/widget-categort.php:73
+msgid "分类"
+msgstr ""
+
+#: ../includes/home/home-cat.php:47 ../includes/home/home-postlist.php:45
+#: ../includes/widgets/widget-categort.php:81
+#: ../includes/widgets/widget-random.php:81
+#: ../includes/widgets/widget-slides.php:59
+msgid "文章数量"
+msgstr ""
+
+#: ../includes/home/home-cat.php:51
+msgid "样式"
+msgstr ""
+
+#: ../includes/home/home-cat.php:53
+msgid "单排显示"
+msgstr ""
+
+#: ../includes/home/home-cat.php:53
+msgid "并排显示"
+msgstr ""
+
+#: ../includes/home/home-cat.php:58
+msgid "如果选择并排显示请选择至少两个的偶数分类"
+msgstr ""
+
+#: ../includes/home/home-postlist.php:10
+#: ../includes/widgets/widget-slides.php:65 ../mpanel/mpanel-ui.php:281
+msgid "最新文章"
+msgstr ""
+
+#: ../includes/home/home-postlist.php:10
+msgid "显示几条最新的文章"
+msgstr ""
+
+#: ../includes/home/home-postlist.php:37
+#: ../includes/widgets/widget-random.php:73
+#: ../includes/widgets/widget-slides.php:51
+msgid "排除分类"
+msgstr ""
+
+#: ../includes/homebuild-scripts.php:11 ../index.php:6
+msgid "首页生成器"
+msgstr ""
+
+#: ../includes/homebuild-scripts.php:12
+msgid "首页板块"
+msgstr ""
+
+#: ../includes/postlist.php:32
+msgid "这里什么都没有，你也许可以尝试用搜素功能找到你需要的文章"
+msgstr ""
+
+#: ../includes/postlist.php:52 ../single.php:7
+msgid "编辑文章"
+msgstr ""
+
+#: ../includes/widgets/widget-banner.php:10
+msgid "支持 Html 代码的广告"
+msgstr ""
+
+#: ../includes/widgets/widget-banner.php:49
+#: ../includes/widgets/widget-social.php:77
+msgid "显示标题"
+msgstr ""
+
+#: ../includes/widgets/widget-categort.php:10
+msgid "显示一个或多个分类的文章"
+msgstr ""
+
+#: ../includes/widgets/widget-categort.php:85
+#: ../includes/widgets/widget-random.php:85 ../mpanel/mpanel-ui.php:146
+msgid "显示缩略图"
+msgstr ""
+
+#: ../includes/widgets/widget-history.php:10
+#: ../includes/widgets/widget-history.php:34
+msgid "浏览历史"
+msgstr ""
+
+#: ../includes/widgets/widget-history.php:10
+msgid "显示 10 条访客的浏览历史"
+msgstr ""
+
+#: ../includes/widgets/widget-login.php:10
+msgid "用户登录"
+msgstr ""
+
+#: ../includes/widgets/widget-login.php:10
+msgid "显示用户登录表单，如果用户已经登录就不会显示"
+msgstr ""
+
+#: ../includes/widgets/widget-login.php:24
+msgid "用户名"
+msgstr ""
+
+#: ../includes/widgets/widget-login.php:28
+msgid "密码"
+msgstr ""
+
+#: ../includes/widgets/widget-login.php:32
+#: ../includes/widgets/widget-login.php:49
+msgid "登录"
+msgstr ""
+
+#: ../includes/widgets/widget-newcomm.php:10
+#: ../includes/widgets/widget-newcomm.php:50
+msgid "最新评论"
+msgstr ""
+
+#: ../includes/widgets/widget-newcomm.php:10
+msgid "显示 N 条最新的评论"
+msgstr ""
+
+#: ../includes/widgets/widget-newcomm.php:29
+#, php-format
+msgid "发表在《%s》"
+msgstr ""
+
+#: ../includes/widgets/widget-newcomm.php:60
+msgid "评论数量"
+msgstr ""
+
+#: ../includes/widgets/widget-newcomm.php:64
+msgid "排除管理员"
+msgstr ""
+
+#: ../includes/widgets/widget-qqlist.php:10
+msgid "QQ 邮件列表"
+msgstr ""
+
+#: ../includes/widgets/widget-qqlist.php:10
+msgid "QQ 邮件列表订阅"
+msgstr ""
+
+#: ../includes/widgets/widget-qqlist.php:24
+msgid "输入邮箱 订阅本站"
+msgstr ""
+
+#: ../includes/widgets/widget-qqlist.php:25
+msgid "订阅"
+msgstr ""
+
+#: ../includes/widgets/widget-qqlist.php:43
+msgid "邮件订阅"
+msgstr ""
+
+#: ../includes/widgets/widget-qqlist.php:51
+msgid "邮件列表 ID"
+msgstr ""
+
+#: ../includes/widgets/widget-random.php:10
+#: ../includes/widgets/widget-random.php:59
+msgid "随机文章"
+msgstr ""
+
+#: ../includes/widgets/widget-random.php:10
+msgid "显示几篇随机文章"
+msgstr ""
+
+#: ../includes/widgets/widget-readers.php:10
+#: ../includes/widgets/widget-readers.php:38
+msgid "读者排行"
+msgstr ""
+
+#: ../includes/widgets/widget-readers.php:10
+msgid "根据评论数的读者排行"
+msgstr ""
+
+#: ../includes/widgets/widget-readers.php:48
+msgid "显示数量"
+msgstr ""
+
+#: ../includes/widgets/widget-readers.php:52
+msgid "几个月内"
+msgstr ""
+
+#: ../includes/widgets/widget-slides.php:10
+msgid "小型幻灯片滑块"
+msgstr ""
+
+#: ../includes/widgets/widget-slides.php:63
+msgid "获取方法"
+msgstr ""
+
+#: ../includes/widgets/widget-slides.php:66 ../mpanel/mpanel-ui.php:282
+msgid "置顶文章"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:10
+#: ../includes/widgets/widget-social.php:63 ../mpanel/mpanel-ui.php:18
+msgid "社交网络"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:10
+msgid "显示网站的社交网络"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:21
+#: ../includes/widgets/widget-social.php:82 ../mpanel/mpanel-ui.php:787
+msgid "新浪微博"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:22
+#: ../includes/widgets/widget-social.php:86 ../mpanel/mpanel-ui.php:795
+msgid "腾讯微博"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:23
+#: ../includes/widgets/widget-social.php:90
+msgid "QQ 联系"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:30
+msgid "微信公众号"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:82
+#: ../includes/widgets/widget-social.php:86
+#: ../includes/widgets/widget-social.php:90
+#: ../includes/widgets/widget-social.php:94
+#: ../includes/widgets/widget-social.php:98
+#: ../includes/widgets/widget-social.php:102
+#: ../includes/widgets/widget-social.php:106
+#: ../includes/widgets/widget-social.php:110
+#: ../includes/widgets/widget-social.php:114
+#, php-format
+msgid "显示 [%s]"
+msgstr ""
+
+#: ../includes/widgets/widget-tags.php:10
+#: ../includes/widgets/widget-tags.php:37
+msgid "标签云"
+msgstr ""
+
+#: ../includes/widgets/widget-tags.php:10
+msgid "显示标签云"
+msgstr ""
+
+#: ../includes/widgets/widget-tags.php:47
+msgid "数量"
+msgstr ""
+
+#: ../includes/widgets/widget-tags.php:51
+msgid "排序"
+msgstr ""
+
+#: ../includes/widgets/widget-tags.php:53
+msgid "升序"
+msgstr ""
+
+#: ../includes/widgets/widget-tags.php:54
+msgid "降序"
+msgstr ""
+
+#: ../includes/widgets/widget-tags.php:55
+msgid "随机"
+msgstr ""
+
+#: ../index.php:6
+#, php-format
+msgid "请设置%s"
+msgstr ""
+
+#: ../mpanel/mpanel-functions.php:55
+#, php-format
+msgid "%s 设置"
+msgstr ""
+
+#: ../mpanel/mpanel-functions.php:109 ../mpanel/mpanel-functions.php:113
+msgid "保存设置"
+msgstr ""
+
+#: ../mpanel/mpanel-functions.php:112
+msgid "恢复初始设置"
+msgstr ""
+
+#: ../mpanel/mpanel-functions.php:112
+msgid "所有目前的设置都会被恢复到初始状态，无法恢复。你确定？"
+msgstr ""
+
+#: ../mpanel/mpanel-functions.php:118
+msgid "五秒钟页面如果没有自动刷新请手动刷新页面！"
+msgstr ""
+
+#: ../mpanel/mpanel-panel.php:35
+msgid "上传"
+msgstr ""
+
+#: ../mpanel/mpanel-panel.php:140
+msgid "不允许出现空格！"
+msgstr ""
+
+#: ../mpanel/mpanel-panel.php:140
+msgid "不允许重复的内容！"
+msgstr ""
+
+#: ../mpanel/mpanel-panel.php:140
+msgid "不允许空的内容！"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:10
+msgid "基本设置"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:12
+msgid "后台设置"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:13
+msgid "优化配置"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:14
+msgid "评论系统"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:15
+msgid "底部内容"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:16
+msgid "广告设置"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:17
+msgid "边栏设置"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:19
+msgid "样式定义"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:20
+msgid "高级功能"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:32
+msgid "响应式布局"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:36
+msgid "开启响应式布局"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:45
+msgid "屏蔽 Safari 底栏"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:48
+msgid ""
+"开启后 iPhone 和 iPad 上使用 Safari 浏览网页时会屏蔽底栏，留出更大阅读空间"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:58
+msgid "使用 Favicon"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:67
+msgid "自定义 Favicon"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:79
+msgid "显示图片 Logo"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:88
+msgid "自定义 Logo"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:91
+msgid "Logo 尺寸为 280px × 104px"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:101
+msgid "自定义苹果添加到主屏幕图标"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:109
+msgid "iPhone 图标"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:112
+msgid "图标尺寸为 57px × 57px"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:117
+msgid "iPhone Retina 图标"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:120
+msgid "图标尺寸为 120px × 120px"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:125
+msgid "iPad 图标"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:128
+msgid "图标尺寸为 72px × 72px"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:133
+msgid "iPad Retina 图标"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:136
+msgid "图标尺寸为 144px × 144px"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:142
+msgid "缩略图设置"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:155
+msgid "删除缩略图鼠标悬停效果"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:157
+msgid ""
+"鼠标停留在缩略图的时候会在缩略图上会出现一个蒙版层和一个小图标，如果你不喜欢"
+"可以勾选此项"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:163
+msgid "Timthumb 裁剪缩略图"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:171
+msgid ""
+"开启裁剪缩略图之后如果你的文章图片是外链的，请将外链的图片域名添加到主题目录"
+"的 “timthumb-config.php” 文件，打开文件可以看到添加方法"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:182
+msgid "使用 Tooltip"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:194
+msgid "Ajax 评论"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:202
+msgid "Ajax 评论翻页"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:209
+msgid "Ajax 文章列表翻页"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:217
+msgid "面包屑导航"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:221
+msgid "开启面包屑导航"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:239
+msgid "首页显示方式"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:243
+msgid "Blog - 文章列表"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:244
+msgid "CMS - 通过首页生成器生成的首页"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:250
+msgid "如果上边设置的是 “CMS” 请点击后边的链接设置首页生成器"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:250
+msgid "点我进入首页生成器"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:261
+msgid "显示幻灯片"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:269
+msgid "幻灯片文章数量"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:277
+msgid "幻灯片文章获取方式"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:294
+msgid "首页主循环置顶文章"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:298
+msgid "正常置顶"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:299
+msgid "让置顶的不置顶"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:300
+msgid "排除置顶文章"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:313
+msgid "回复评论"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:317
+msgid "后台回复评论表情插入"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:321
+msgid ""
+"开启后在后台回复评论的时候会在回复框上添加一个表情插入按钮，以弥补后台回复评"
+"论无法直接插入表情的缺点。"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:326
+msgid "后台回复评论快捷键"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:330
+msgid "开启后在后台回复评论的时候可以使用 [ ctrl + enter ] 来提交，提高效率。"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:340
+msgid "后台文章编辑器功能增强"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:358
+msgid "使用 Lazyload"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:364
+msgid "关于 lazyload"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:371
+msgid "文章"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:375
+msgid "阻止站内文章互相 Pingback"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:379
+msgid "不了解可搜索 Pingback 了解相关内容"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:384
+msgid "第一篇文章预渲染"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:388
+msgid ""
+"开启后用户访问首页会使用 Html5 预渲染技术渲染第一篇文章，如果用户点击第一篇文"
+"章则秒开"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:393
+msgid "文章底部添加版权信息"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:401
+msgid "显示上下篇文章链接"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:410
+msgid "头部元信息"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:414
+msgid "移除头部无用信息"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:418
+msgid "WordPress 在头部输出了一些无用的信息，开启后会把他们移除"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:423
+msgid "关闭离线编辑器接口"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:426
+msgid "如果你使用 WordPress 的后台编辑器可以开启此选项保证安全"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:431
+msgid "网站描述"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:434
+msgid "优化建议：不超过 140 个字"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:440
+msgid "阅读"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:444
+msgid "文章链接全部在新窗口打开"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:451
+msgid "文章外链添加 nofollow 并在新窗口打开"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:464
+msgid "搜索结果只包括文章"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:471
+msgid "如果搜索结果只有一篇文章则跳转到这篇文章"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:480
+msgid "Cdn"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:484
+#, php-format
+msgid "%s 使用 Cdn"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:487
+msgid "使用 Cdn 可以提高网站加载速度，减少服务器压力，开启后不会影响任何事情"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:499
+msgid "垃圾评论"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:503
+msgid "垃圾评论拦截"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:506
+msgid "开启前请关闭 Akismet 插件"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:511
+msgid "拦截不包含中文的评论"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:518
+msgid "禁止没有头像的用户评论"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:521
+msgid "谨慎开启。开启之后如果评论用户的邮箱没有 Gravatar 头像将会被禁止"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:527 ../mpanel/mpanel-ui.php:531
+msgid "评论邮件通知"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:534
+msgid "当用户的评论被回复之后自动发送一封邮件提醒"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:540 ../mpanel/mpanel-ui.php:544
+msgid "回复评论加 @"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:548
+msgid ""
+"回复的评论会在前面加上 @ 回复的人，@ 不会被写入数据库，也就是说使用主题之前的"
+"评论也有效"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:554
+msgid "评论链接"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:558
+msgid "评论作者链接新窗口打开"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:561
+msgid "评论作者的链接在新窗口打开，以免流失访客"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:572
+msgid "返回顶部和二维码"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:576
+msgid "显示返回顶部和二维码"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:585
+msgid "页脚文本区域（一）"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:591
+msgid "© 2012-2014 斌果博客"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:597
+msgid "页脚文本区域（二）"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:603
+msgid ""
+"Power by WordPress | Theme <a href=\"http://www.bgbk.org\" rel=\"external"
+"\">Beamour</a>"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:613
+msgid "文章内容顶部"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:613
+msgid "文章内容尾部"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:613
+msgid "文章内容"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:613
+#, php-format
+msgid "简码 %s 的广告"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:619
+msgid "显示广告"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:626
+msgid "广告图片"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:633
+msgid "广告链接"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:640
+msgid "鼠标停放时提示的文本"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:647
+msgid "在新窗口打开链接"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:655
+msgid "自定义广告代码"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:658
+msgid "如果这里留空则使用上边的图片广告，否则使用此代码"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:663
+msgid "自动下架"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:666
+msgid "如果这里不留空则在此日期后自动下架广告"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:678 ../mpanel/mpanel-ui.php:682
+msgid "边栏位置"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:686
+msgid "左边"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:687
+msgid "右边"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:688
+msgid "不显示"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:696 ../mpanel/mpanel-ui.php:700
+msgid "建立边栏"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:708
+msgid "选择边栏"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:713
+msgid "文章页"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:713
+msgid "页面"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:713
+msgid "存档页"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:715
+#, php-format
+msgid "%s侧边栏"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:725
+#, php-format
+msgid "分类 [%s] 的侧边栏"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:757
+msgid "网站相关"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:761
+msgid "建站日期"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:764
+msgid "输入您建立此网站的时间，此内容用来统计"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:771
+msgid "国内社交网络"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:775
+msgid "如果要填写网址请包括 http://，下同"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:781
+msgid "下边所有选项都是选填，尽可能将有的都填上"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:803
+msgid "微信公众号二维码"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:806
+msgid "二维码需要为正方形，在 300px 上下即可"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:812
+msgid "国外社交网络"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:840
+msgid "站长信息"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:852
+msgid "QQ 号"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:860
+msgid "RSS 地址"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:874
+msgid "配色设置"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:878
+msgid "备选配色"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:882
+msgid "默认"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:883
+msgid "橙色"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:884
+msgid "深红"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:885
+msgid "绿色"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:886
+msgid "红色"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:893
+msgid "开启自定义颜色"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:901
+msgid "自定义颜色"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:909
+msgid "自定义 CSS"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:920
+msgid "自定义响应式（"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:923
+msgid "此 CSS 会在屏幕分辨率在 "
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:935 ../mpanel/mpanel-ui.php:939
+msgid "头像缓存"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:947
+msgid "缓存天数"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:956
+msgid "二维码"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:960
+msgid "二维码缓存"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:967
+msgid "二维码中间嵌入博主头像"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:976 ../mpanel/mpanel-ui.php:980
+msgid "主题更新提示"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:984
+msgid "开启后主题升级时将在后台顶部显示一条提示信息"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:990
+msgid "自定义头部代码"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:1001
+msgid "自定义页脚代码"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:1012
+msgid "导出设置"
+msgstr ""
+
+#: ../mpanel/mpanel-ui.php:1023
+msgid "导入设置"
+msgstr ""
+
+#: ../page.php:8
+msgid "当前位置"
+msgstr ""
+
+#: ../page.php:10
+msgid "编辑页面"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Type to search..."
+msgstr ""
+
+#: ../sidebar.php:13
+#, php-format
+msgid "请设置侧边栏：%s"
+msgstr ""
+
+#~ msgid ""
+#~ "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s"
+#~ "\">%3$s spam comments</a>."
+#~ msgid_plural ""
+#~ "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s"
+#~ "\">%3$s spam comments</a>."
+#~ msgstr[0] ""
+#~ "<a href=\"%1$s\">Akismet</a>在您的站点上拦截了<a href=\"%2$s\">%3$s条垃圾"
+#~ "评论</a>。"
+
+#~ msgid "%s approved"
+#~ msgid_plural "%s approved"
+#~ msgstr[0] "用户获准%s次"
+
+#~ msgid ""
+#~ "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam "
+#~ "comment already. "
+#~ msgid_plural ""
+#~ "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam "
+#~ "comments already. "
+#~ msgstr[0] "<a href=\"%1$s\">Akismet</a>已经帮您过滤了%2$s条垃圾评论。"
+
+#~ msgid ""
+#~ "There's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+#~ msgid_plural ""
+#~ "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+#~ msgstr[0] "垃圾评论队列中现有<a href=\"%2$s\">%1$s条评论</a>。"
+
+#~ msgid ""
+#~ "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</"
+#~ "strong>"
+#~ msgid_plural ""
+#~ "<strong class=\"count\">%1$s spam</strong> blocked by <strong>Akismet</"
+#~ "strong>"
+#~ msgstr[0] ""
+#~ "<strong>Akismet</strong>有效屏蔽了<strong class=\"count\">%1$s条垃圾评论</"
+#~ "strong>"
+
+#~ msgid "%s comment awaiting moderation"
+#~ msgid_plural "%s comments awaiting moderation"
+#~ msgstr[0] "%s条评论待审"
+
+#~ msgid "%s topic"
+#~ msgid_plural "%s topics"
+#~ msgstr[0] "%s个话题"
+
+#~ msgid ""
+#~ "Your theme supports %s menu. Select which menu you would like to use."
+#~ msgid_plural ""
+#~ "Your theme supports %s menus. Select which menu appears in each location."
+#~ msgstr[0] "您的主题支持%s个菜单。请为您的菜单指定显示位置。"
+
+#~ msgid "%s min"
+#~ msgid_plural "%s mins"
+#~ msgstr[0] "%s分钟"
+
+#~ msgid "%s hour"
+#~ msgid_plural "%s hours"
+#~ msgstr[0] "%s小时"
+
+#~ msgid "%s day"
+#~ msgid_plural "%s days"
+#~ msgstr[0] "%s天"
+
+#~ msgid "%s week"
+#~ msgid_plural "%s weeks"
+#~ msgstr[0] "%s周"
+
+#~ msgid "%s month"
+#~ msgid_plural "%s months"
+#~ msgstr[0] "%s月"
+
+#~ msgid "%s year"
+#~ msgid_plural "%s years"
+#~ msgstr[0] "%s年"
+
+#~ msgid ""
+#~ "Currently %s comment is waiting for approval. Please visit the moderation "
+#~ "panel:"
+#~ msgid_plural ""
+#~ "Currently %s comments are waiting for approval. Please visit the "
+#~ "moderation panel:"
+#~ msgstr[0] "当前有%s条评论等待审核。请移步审核页面来查看："
+
+#~ msgid "Published <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Published <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "已发布<span class=\"count\">（%s）</span>"
+
+#~ msgid "Scheduled <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "定时发布<span class=\"count\">（%s）</span>"
+
+#~ msgid "Draft <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Drafts <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "草稿<span class=\"count\">（%s）</span>"
+
+#~ msgid "Pending <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Pending <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "待审<span class=\"count\">（%s）</span>"
+
+#~ msgid "Private <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Private <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "私密<span class=\"count\">（%s）</span>"
+
+#~ msgid "Trash <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Trash <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "回收站<span class=\"count\">（%s）</span>"
+
+#~ msgid "Image <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Images <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "图像<span class=\"count\">（%s）</span>"
+
+#~ msgid "Audio <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Audio <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "音频<span class=\"count\">（%s）</span>"
+
+#~ msgid "Video <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Video <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "视频<span class=\"count\">（%s）</span>"
+
+#~ msgid "One Response to %2$s"
+#~ msgid_plural "%1$s Responses to %2$s"
+#~ msgstr[0] "%1$s则回应给%2$s"
+
+#~ msgid "%d Plugin Update"
+#~ msgid_plural "%d Plugin Updates"
+#~ msgstr[0] "%d个插件更新"
+
+#~ msgid "%d Theme Update"
+#~ msgid_plural "%d Theme Updates"
+#~ msgstr[0] "%d个主题更新"

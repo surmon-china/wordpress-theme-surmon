@@ -1,0 +1,105 @@
+@charset 'utf-8';
+
+#mlan_welcome{-webkit-animation: m_plan 3s;
+  width: 1px;
+  height: 100%;
+  background-color:rgb(241, 241, 241);
+  position: fixed;
+  z-index: 1000;right:0px;}
+
+
+@-webkit-keyframes m_plan{
+
+from{  width: 100%;
+  height: 100%;}
+
+to{  width: 1px;
+  height: 100%;right:0px;}
+}
+
+#mpanel-wrap{width:820px;overflow:hidden;margin:20px auto;background:#fff;border:1px solid #E5E5E5;position:relative;font-family:Microsoft Yahei;}
+#mpanel-load{margin:-40px 0 0 -40px;height:80px;width:80px;background:rgba(0,0,0,.8) url(../images/loading.gif) no-repeat center;position:fixed;top:50%;left:50%;z-index:100;display:none;}
+#mpanel-form{display:inline;}
+#mpanel-tooltip{background:#000;color:#FFF;font-size:12px;padding:3px 6px;position:absolute;opacity:.8;transform:translate(0,-100%);-ms-transform:translate(0,-100%);-moz-transform:translate(0,-100%);-webkit-transform:translate(0,-100%);-o-transform:translate(0,-100%);min-width:40px;text-align:center;z-index:99999;max-width:200px;}
+#mpanel-tooltip:after{content:'';left:50%;bottom:-5px;border:5px solid #000;position:absolute;transform:translate(-50%,0) rotate(45deg);-ms-transform:translate(-50%,0) rotate(45deg);-moz-transform:translate(-50%,0) rotate(45deg);-webkit-transform:translate(-50%,0) rotate(45deg);-o-transform:translate(-50%,0) rotate(45deg);}
+.mpanel-done{background:rgba(0,0,0,.8) url(../images/done.png) no-repeat center !important;}
+.mpanel-error{background:rgba(0,0,0,.8) url(../images/error.png) no-repeat center !important;}
+.mpanel-logo{width:150px;height:150px;background:url(../images/logo.png) no-repeat center;margin:0;}
+.mpanel-menu-box{ float: left;
+  width: 150px;
+  height: 100%;
+  background: #fff;
+  border: 0px;
+  border-right: 1px solid #eee;}
+.mpanel-menu{margin:0;}
+.mpanel-menu li{  height: 35px;
+  margin-bottom: 0;
+  line-height: 35px;
+  border-bottom: 1px solid #E5E5E5;
+  position: relative;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;}
+.mpanel-menu li:first-child{border-top:1px solid #E5E5E5;}
+.mpanel-menu li.current{background:#eee;}
+.mpanel-menu li:hover{background:#eee;width:150px;}
+.mpanel-menu li[class*="current"]:hover{width:150px;}
+.mpanel-help{width:16px;height:16px;background:url(../images/help.png) no-repeat center;display:block;position:absolute;right:10px;top:13px;cursor:help;}
+.mpanel-submit{position: absolute;
+  height: 25px;
+  font-size: 13px;
+  background: #ddd;
+  vertical-align: baseline;
+  color: #FFF;
+  cursor: pointer;
+  border: none;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition: .5s;
+  padding: 0 10px;}
+.mpanel-submit:disabled{box-shadow:none;background-color:#E5E5E5;}
+.mpanel-submit:hover{background:#aaa;}
+.mpanel-save{right:20px;top:8px;}
+.mpanel-save2{bottom:8px;right:20px;}
+.mpanel-restore-settings{bottom:8px;left:181px;}
+.mpanel-page{float:right;width:619px;padding:0 20px;min-height:700px;margin-bottom:44px;border-bottom:1px solid #E5E5E5;}
+.mpanel-page > h2.title{border-bottom: 1px solid #E5E5E5;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  padding: 0 5px;
+  font-weight: bold;
+  font-size: 18px;}
+.mpnael-group{border:1px solid #E5E5E5;margin-bottom:20px;}
+.mpnael-group h3.title{margin:0;border-bottom:1px solid #E5E5E5;background:#FAFAFA;height:30px;line-height:30px;padding:0 10px;font-size:15px;}
+.mpnael-group-box{padding:0 10px;background:#FEFEFE;}
+.mpanel-form-table{border-bottom:1px solid #E5E5E5;margin:0 -10px;padding:10px;overflow:hidden;position:relative;}
+.mpanel-form-table:last-child{border-bottom:none;}
+.mpanel-panel-name{width:30%;display:inline-block;margin-right:5px;float:left;line-height:27px;}
+.mpanel-form-table input[type="text"],.mpanel-form-table input[type="password"]{width:350px;}
+.mpanel-form-table input[type="number"]{width:80px;}
+.mpanel-form-table select{width:350px;}
+.mpanel-form-table select[multiple="multiple"]{height:100px;}
+.mpanel-form-table textarea{width:350px;height:88px;float:left;resize:none;}
+.mpanel-form-table-help{background:#FEFEFE;color:#555555;font-size:13px;}
+.mpanel-form-table-color input[type="text"]{width:70px;}
+.mpanel-form-table-bigtext textarea{width:565px;}
+.mpanel-form-table-list div .mpanel-list-enter{width:300px;}
+.mpanel-form-table-list div .mpanel-list-add{width:40px;margin-left:3px;background:#FAFAFA;display:inline-block;text-align:center;text-decoration:none;height:22px;line-height:22px;padding:1.5px 0;border:1px solid #E5E5E5;color:#666;}
+.mpanel-form-table-list div .mpanel-list-li{margin-bottom:0;}
+.mpanel-form-table-list div .mpanel-list-li li{height:22px;background:#FAFAFA;padding:5px;line-height:22px;border:1px solid #E5E5E5;overflow:hidden;margin-bottom:0px;margin-top:6px;}
+.mpanel-form-table-list div .mpanel-list-li li .mpanel-list-li-name{white-space:nowrap;width:520px;overflow:hidden;display:inline-block;text-overflow:ellipsis;}
+.mpanel-form-table-list div .mpanel-list-li li .mpanel-list-li-delete{width:20px;height:20px;float:right;display:inline-block;background:url(../images/delete.png) no-repeat center;line-height:22px;}
+.mpanel-form-table-slider .mpanel-slider{width:250px;height:37px;line-height:37px;display:inline-block;position:relative;}
+.mpanel-form-table-slider .mpanel-slider .box{width:260px;height:10px;background:#E5E5E5;margin-top:15px;}
+.mpanel-form-table-slider .mpanel-slider .slider{height:15px;width:15px;position:absolute;top:12px;background:#35aadc;cursor:pointer;}
+.mpanel-form-table .mpanel-explain{margin:4px 0 0;font-size:12px;text-indent:185px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.mpanel-form-table .mpanel-radio-box{display:inline-block;}
+.mpanel-form-table .mpanel-radio-box > label{display:block;margin-bottom:8px;}
+.mpanel-form-table .upload-img-box{margin-top:10px;border:1px solid #E5E5E5;padding:3px;max-width:100%;position:relative;}
+.mpanel-form-table .upload-img-box img{max-width:100%;height:auto;display:block;}
+.mpanel-form-table .upload-img-box .delete{position:absolute;width:20px;height:20px;right:-8px;top:-8px;background:url(../images/delete.png);cursor:pointer;}
+.mpanel-form-table .mpanel-upload-button{height:26px;background:#EAEAEA;display:block;float:right;border:1px solid #E5E5E5;width:50px;line-height:26px;text-align:center;text-decoration:none;color: #545454;}

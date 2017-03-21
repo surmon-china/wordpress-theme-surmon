@@ -1,0 +1,25 @@
+<div id="single">
+<p>我是文章内容页</p>
+<p>原始地址：{{single.previous_url}}</p>
+<p>相关文章：<div ng-include="'/app/wp-content/themes/Surmon/app/php_module/related.php'"></div></p>
+<p>文章ID：{{single.post.id}}</p>
+<p>文章类型：{{single.post.type}}</p>
+<p>文章地址：{{single.post.url}}</p>
+<p>文章标题：{{single.post.title}}</p>
+<p>文章摘要：{{single.post.content}}</p>
+<p>发布日期：{{single.post.data}}</p>
+<p>围观人数：{{single.post.custom_fields.views[0]}}</p>
+<p>评论条数：{{single.post.comment_count}}</p>
+<ul ng-repeat="tag in single.post.tags">
+    <li>所属标签：<a href="#/tag/{{tag.slug}}" >{{tag.title}}</a></li>
+</ul>
+<ul ng-repeat="cate in single.post.categories">
+    <li>所属分类：<a href="#/cate/{{cate.slug}}" >{{cate.title}}</a></li>
+</ul>
+<p>缩略图：
+<a href="#/post/{{post.id}}"><img ng-src="{{post.thumbnail_images.full.url}}" /></a>
+</p>
+<p>本页共{{postsNum}}篇文章，一共有{{pages}}页内容</p>
+<p>你可以在下面留言哦</p>
+<!-- <comment></comment> -->
+</div>

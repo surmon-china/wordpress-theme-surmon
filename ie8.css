@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*
+
+	*IE8
+
+*/
+
+body,.header_nothin,.header_nothing_right{background-color: #ccc!important}
+
+#header{border-bottom:10px solid #ccc!important;borderTop:15px solid #ccc!important}
+
+#tooltip{display:none !important;}
+
+img,.logo{filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)!important;}
+
+.main_img img:hover{margin-left:-20px;}.main_img img{margin-left:-20px;}
+
+.ds-post-button{background-color: #BBB!important;}
+
+.music-player .info{background-color:#ddd;height:40px;top:10px;position:relative;text-align:center;color:#bbb}
+
+.jp-current-time{display:none;}
+
+.search-text:hover{background-color: #ccc;}
+
+.progress-base{display: none!important};
+
+.ds-post-button{background-color: #BBB!important;color: #7D7D7D!important;}
+
+.ds-post-button:hover{background-color: #AAA !important;color:#333!important;}
