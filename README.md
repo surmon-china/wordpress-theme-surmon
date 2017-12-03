@@ -1,2 +1,3 @@
 # wordpress-theme-surmon
-🎨 A Blog wordpress theme by surmon.
+
+🎨 A blog theme for wordpress.
