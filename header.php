@@ -3,13 +3,10 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
-        <meta name="Author" Content="司马萌,surmon@qq.com">
-        <meta name="Copyright" Content="本页版权归Surmon.me所有,All Rights Reserved">
-        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" >
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" >
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="keywords" content="马赐崇,Surmon,司马萌,司马萌萌,Nocower-One主题,Wordpress-One主题模板"/>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<?php wp_head(); ?>
+<?php wp_head(); ?>
 <!--百度异步统计代码-->
 <script>
 var _hmt = _hmt || [];
